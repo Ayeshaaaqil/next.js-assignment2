@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pagecontainer {
+display:flex;
+padding: 0px;
+border: 4px solid white;
+align-items:center;
+justify-content: space-between;
+}
+
+.bioDataContainer {
+  width: fit-content;
+  height: 600px;
+  color:blueviolet ;
+  font-style:italic;
+  background-color:100px ;
+  border: 50px solid white;
+  margin: 40px;
+  text-shadow: rgb(92, 52, 129);
+  font-size:50px;
+  font-display:pink;
+}
+.imageContainer{
+display: flex;
+width: 500px;
+height: 500px;
+
+}
